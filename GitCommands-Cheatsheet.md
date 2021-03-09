@@ -1,3 +1,17 @@
+### Display commit logs
+
+**git log**
+
+Displays detailed log
+
+**git log --oneline**
+
+Displays each log in a single line. Compact listing
+
+**git log --oneline --graph**
+
+The --graph option draws an ASCII graph representing the branch structure of the commit history.
+
 ### Undo Last Git Commit (with reset)
 
 **$ git reset --soft HEAD~1**
@@ -9,3 +23,5 @@
 **$ git reset --hard HEAD~1**
 
 Used to undo the last commit and discard all the changes in the working directory and index
+
+
